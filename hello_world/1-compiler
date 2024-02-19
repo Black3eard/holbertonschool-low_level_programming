@@ -1,2 +1,2 @@
 #!/bin/bash
-gcci -c $CFILE 
+gcci -c $CFILE | cat 1-compiler.o 
