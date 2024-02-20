@@ -17,7 +17,7 @@ int main(void)
 
 	if (udig > 5)
 	{
-		printf("Last digit of %d is, %d and is grater than 5\n", n, udig);
+		printf("Last digit of %d is, %d and is greater than 5\n", n, udig);
 	}
 	if (udig == 0)
 	{
