@@ -6,9 +6,9 @@
  */
 int main(void)
 {
-	char decima;
+	int decima;
 
-	for (decima = 0; decima <= 9; decima++)
+	for (decima = 48; decima <= 57; decima++)
 	{
 		putchar(decima);
 	}
