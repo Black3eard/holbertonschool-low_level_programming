@@ -1,7 +1,7 @@
 #include"main.h"
 /**
- * islower - Entry Point
- *
+ * _islower - Entry Point
+ * @c: an argument
  * Return: Always 0 (Success)
  */
 int _islower(int c)
