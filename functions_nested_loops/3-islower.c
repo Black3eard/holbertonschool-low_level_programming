@@ -6,11 +6,11 @@
  */
 int _islower(int c)
 {
-	if (c != 99)
+	if (c == ([upper])
 	{
 		_putchar('0');
 	}
-	if (c == 99)
+	if (c != ([upper])
 	{
 		_putchar('1');
 	}
