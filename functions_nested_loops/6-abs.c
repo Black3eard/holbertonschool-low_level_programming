@@ -8,18 +8,12 @@
  */
 int _abs(int z)
 {
-	int y= 1;
-	int c= 2;
-	int r= y - c;
-	int total= r * z;
-
 	if (z < 0)
 	{
-		return (total);
+		return (-z);
 	}
 	else
 	{
-		_putchar(z);
+		return (z);
 	}
-	return (z);
 }
