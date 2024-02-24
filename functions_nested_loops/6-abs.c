@@ -11,11 +11,11 @@ int _abs(int z)
 	int y= 1;
 	int c= 2;
 	int r= y - c;
+	int total= r * z;
 
 	if (z < 0)
 	{
-		z = r * z;
-		_putchar(r);
+		return (total);
 	}
 	else
 	{
