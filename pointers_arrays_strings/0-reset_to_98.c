@@ -1,12 +1,10 @@
-#include "main"
-#include <stdio.h>
+#include "main.h"
 /**
- * 0-reset_to_98.c - check the code.
- * @*n: an arengment.
- * Return Always 0.
+ * reset_to_98 - check the code.
+ * @n: an arengment.
+ * Return Always void.
  */
 void reset_to_98(int *n)
 {
-	int *p = &n;
-	*p = 98;
+	*n = 98;
 }
