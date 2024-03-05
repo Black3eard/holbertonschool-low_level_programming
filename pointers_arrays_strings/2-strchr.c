@@ -11,7 +11,7 @@ char *_strchr(char *s, char c)
 
 	for (find = 0; s[find] != '\0' && s[find] != c; find++)
 	{}
-	if ( s[find] == c)
+	if (s[find] == c)
 	{
 		return (s + find);
 	}
